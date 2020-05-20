@@ -1,0 +1,51 @@
+html, body {
+    background-color: #fff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header .head {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head h1 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 250%;
+}
+
+.search-container {
+    margin-top: 30px;
+}
+
+.search-container input {
+    border-radius: 200px;
+    padding: 7px;
+    border: 1px solid #555;
+    background-color: rgb(238, 235, 235);
+    box-shadow: 0px 10px 14px -7px #750409;
+    margin-right: 20px;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f81925;
+    border-radius: 200px;
+    padding: 12px;
+    
+}
